@@ -1,0 +1,25 @@
+com.ifmvo.togetherad.core
+attr circleColor
+attr radius
+attr ringBgColor
+attr ringColor
+attr strokeWidth
+drawable shape_pre_movie_time
+drawable shape_splash_skip_view_custom_bg
+id text_count_down
+id time
+layout layout_splash_skip_view_simple1
+layout layout_splash_skip_view_simple2
+layout layout_splash_skip_view_simple3
+string all_ad_error
+string app_name
+string clicked
+string dislike
+string dismiss
+string exposure
+string no_dispatch
+string no_init
+string prepared
+string show
+string timeout
+styleable TasksCompletedView circleColor radius ringBgColor ringColor strokeWidth

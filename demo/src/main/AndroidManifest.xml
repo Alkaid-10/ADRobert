@@ -18,6 +18,7 @@
         -->
         <activity
             android:name=".splash.SplashActivity"
+            android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,95 +29,128 @@
         <!--
             主页
         -->
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:exported="true"/>
 
         <!--
             开屏界面 （ 请求与展示分开 ）
         -->
         <activity
             android:name=".splash.SplashProActivity"
-            android:theme="@style/SplashTheme" />
+            android:theme="@style/SplashTheme"
+            android:exported="true"
+            />
 
         <!--
             热启动的开屏界面
         -->
         <activity
             android:name=".splash.SplashHotActivity"
-            android:theme="@style/SplashTheme" />
+            android:theme="@style/SplashTheme"
+            android:exported="true"
+            />
 
         <!--
             开屏 & 原生 混合使用
         -->
         <activity
             android:name=".hybrid.SplashHybridActivity"
-            android:theme="@style/SplashTheme" />
+            android:theme="@style/SplashTheme"
+            android:exported="true"
+            />
 
         <!--
             原生模板2.0的简单用法
         -->
-        <activity android:name=".express2.NativeExpress2SimpleActivity" />
+        <activity android:name=".express2.NativeExpress2SimpleActivity"
+            android:exported="true"
+            />
 
         <!--
             原生模板2.0 在 RecyclerView 中的用法
         -->
-        <activity android:name=".express2.NativeExpress2RecyclerViewActivity" />
+        <activity android:name=".express2.NativeExpress2RecyclerViewActivity"
+            android:exported="true"
+            />
 
         <!--
             原生模板的简单用法
         -->
-        <activity android:name=".express.NativeExpressSimpleActivity" />
+        <activity android:name=".express.NativeExpressSimpleActivity"
+            android:exported="true"
+            />
 
         <!--
             原生模板1.0 在 RecyclerView 中的用法
         -->
-        <activity android:name=".express.NativeExpressRecyclerViewActivity" />
+        <activity android:name=".express.NativeExpressRecyclerViewActivity"
+            android:exported="true"
+            />
 
         <!--
             原生信息流的简单用法
         -->
-        <activity android:name=".native_.NativeSimpleActivity" />
+        <activity android:name=".native_.NativeSimpleActivity"
+            android:exported="true"
+            />
 
         <!--
             原生信息流在 RecyclerView 中的用法
         -->
-        <activity android:name=".native_.NativeRecyclerViewActivity" />
+        <activity android:name=".native_.NativeRecyclerViewActivity"
+            android:exported="true"
+            />
 
         <!--
             激励广告
         -->
-        <activity android:name=".reward.RewardActivity" />
+        <activity android:name=".reward.RewardActivity"
+
+            android:exported="true"/>
 
         <!--
             踩坑指南
         -->
-        <activity android:name=".other.HelpActivity" />
+        <activity android:name=".other.HelpActivity"
+            android:exported="true"
+            />
 
         <!--
             Banner 横幅广告
         -->
-        <activity android:name=".banner.BannerActivity" />
+        <activity android:name=".banner.BannerActivity"
+            android:exported="true"
+            />
 
         <!--
             Interstitial 插屏广告
         -->
-        <activity android:name=".inter.InterActivity" />
+        <activity android:name=".inter.InterActivity"
+            android:exported="true"
+            />
 
         <!--
             原生模板1.0 & 原生模板2.0 混合使用
         -->
-        <activity android:name=".hybrid.NativeExpressHybridActivity" />
+        <activity android:name=".hybrid.NativeExpressHybridActivity"
+            android:exported="true"
+            />
 
         <!--
             全屏视频广告
         -->
         <activity
             android:name=".fullvideo.FullVideoActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            />
 
         <!--
             全屏竖屏前贴广告（ 激励、全屏视频、原生自渲染混合使用 ）
         -->
-        <activity android:name=".hybrid.VerticalPreMovieHybridActivity" />
+        <activity android:name=".hybrid.VerticalPreMovieHybridActivity"
+            android:exported="true"
+            />
 
     </application>
 

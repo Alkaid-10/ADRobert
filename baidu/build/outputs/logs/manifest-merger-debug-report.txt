@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:4:5-24:19
+activity#com.baidu.mobads.AppActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:9:9-12:75
+	android:configChanges
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:11:13-72
+	android:theme
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:12:13-72
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:10:13-56
+provider#com.baidu.mobads.openad.BdFileProvider
+ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:14:9-22:20
+	android:grantUriPermissions
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:18:13-47
+	android:authorities
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:16:13-63
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:15:13-66
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:19:13-21:57
+	android:resource
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:21:17-54
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml:20:17-67
+uses-sdk
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/baidu/src/main/AndroidManifest.xml

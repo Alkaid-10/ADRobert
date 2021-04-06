@@ -1,0 +1,854 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/24f0205f42056643f02c04531dd55433/AndroidManifest.xml:17:1-22:12
+MERGED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:2:1-168:12
+MERGED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-26:12
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:2:1-63:12
+MERGED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:2:1-20:12
+MERGED from [:core] /Users/bytedance/Desktop/TogetherAd/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1c1301778a224548c3322f4fb7593a97/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/05b2ee6ce988cd274bb0645f32135197/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:17:1-75:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-androidx-2.4.aar/dab0470c999f66915a03a2510d6eb22b/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-support-fragments-2.4.aar/a0321c6df63434b6e4cbe8230144772c/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fd10c13f29b681f87b690164d5d92fe0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ca31a0ce8aafeb1347b65f4d68c936ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/302cc62a3e98b32a4e3626660241036c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6a3e97e47e26348066177ecebbfe7f13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0b411fc40e4b276540b3c1cc94cbe4f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d467a569752eba2a2b6866ea8aaac117/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/909c093012ec5ba03aa9546241aa3ec3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e6aa58346f28da246b1c4e03dad0d7d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/261d0c40e3e2a3e90c0bbab47cd0020e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/59413f6110fb47dd832c84747299e535/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/35a2c744c72a785ceafd8947dc4593a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f7ede70edf9f54db2cf0af6dc4aa61aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3e28603fde414e6b802608ad00f41b61/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0c13d45835a6329f342878a5f996dcc9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bcdf9704d576ac3b13806fa6fd27101/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e57b443f21a783236f2841b42d5b0fe1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/023fcf08b2ed3ec1db93e9e4fab043bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cd380561f347982cd13104c55c5d8cd8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b8a7665a04886c76fea423fe89ae902e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/507179b6594e192156b07f26fb657b55/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4f3551ff5ee2108b42c80c904c373ab5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f0b4cf73c10fc31192be2d5249d7fe33/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2c3b1e825346cd45ca99f090ba0bbe64/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/420c3ead644f376a6ebfc35169243e33/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1c4adff5a809bc056590fa904244f2a7/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+	package
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:4:5-40
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:1-157:12
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:6:5-155:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:22:5-26:19
+MERGED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-27:19
+MERGED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:32:5-166:19
+MERGED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:32:5-166:19
+MERGED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-24:19
+MERGED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-24:19
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:18:5-61:19
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:18:5-61:19
+MERGED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-28:19
+MERGED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-28:19
+MERGED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:11:5-18:19
+MERGED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:11:5-18:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:28:5-73:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:28:5-73:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:7:5-13:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0c13d45835a6329f342878a5f996dcc9/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0c13d45835a6329f342878a5f996dcc9/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bcdf9704d576ac3b13806fa6fd27101/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bcdf9704d576ac3b13806fa6fd27101/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0c13d45835a6329f342878a5f996dcc9/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:10:9-41
+	tools:ignore
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:14:9-48
+	android:roundIcon
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:34:9-44
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:7:9-32
+activity#com.ifmvo.togetherad.demo.splash.SplashActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:21:13-36
+	android:theme
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:20:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:25:27-74
+activity#com.ifmvo.togetherad.demo.MainActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:32:9-33:38
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:32:19-47
+activity#com.ifmvo.togetherad.demo.splash.SplashProActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:38:9-42:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:40:13-47
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:39:13-53
+activity#com.ifmvo.togetherad.demo.splash.SplashHotActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:47:9-51:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:49:13-47
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:48:13-53
+activity#com.ifmvo.togetherad.demo.hybrid.SplashHybridActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:56:9-60:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:59:13-36
+	android:theme
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:58:13-47
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:57:13-56
+activity#com.ifmvo.togetherad.demo.express2.NativeExpress2SimpleActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:65:9-67:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:65:19-72
+activity#com.ifmvo.togetherad.demo.express2.NativeExpress2RecyclerViewActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:72:9-74:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:72:19-78
+activity#com.ifmvo.togetherad.demo.express.NativeExpressSimpleActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:79:9-81:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:80:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:79:19-70
+activity#com.ifmvo.togetherad.demo.express.NativeExpressRecyclerViewActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:86:9-88:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:87:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:86:19-76
+activity#com.ifmvo.togetherad.demo.native_.NativeSimpleActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:93:9-95:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:94:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:93:19-63
+activity#com.ifmvo.togetherad.demo.native_.NativeRecyclerViewActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:100:9-102:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:101:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:100:19-69
+activity#com.ifmvo.togetherad.demo.reward.RewardActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:107:9-109:38
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:109:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:107:19-56
+activity#com.ifmvo.togetherad.demo.other.HelpActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:114:9-116:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:115:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:114:19-53
+activity#com.ifmvo.togetherad.demo.banner.BannerActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:121:9-123:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:122:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:121:19-56
+activity#com.ifmvo.togetherad.demo.inter.InterActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:128:9-130:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:129:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:128:19-54
+activity#com.ifmvo.togetherad.demo.hybrid.NativeExpressHybridActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:135:9-137:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:136:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:135:19-69
+activity#com.ifmvo.togetherad.demo.fullvideo.FullVideoActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:142:9-146:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:145:13-36
+	android:configChanges
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:144:13-83
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:143:13-56
+activity#com.ifmvo.togetherad.demo.hybrid.VerticalPreMovieHybridActivity
+ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:151:9-153:15
+	android:exported
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:152:13-36
+	android:name
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml:151:19-72
+uses-sdk
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/24f0205f42056643f02c04531dd55433/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/24f0205f42056643f02c04531dd55433/AndroidManifest.xml:20:5-43
+MERGED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:8:5-11:611
+MERGED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:8:5-11:611
+MERGED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:7:5-9:41
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:7:5-9:41
+MERGED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:7:5-9:41
+MERGED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:7:5-9:41
+MERGED from [:core] /Users/bytedance/Desktop/TogetherAd/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core] /Users/bytedance/Desktop/TogetherAd/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1c1301778a224548c3322f4fb7593a97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1c1301778a224548c3322f4fb7593a97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/05b2ee6ce988cd274bb0645f32135197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/05b2ee6ce988cd274bb0645f32135197/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-androidx-2.4.aar/dab0470c999f66915a03a2510d6eb22b/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-androidx-2.4.aar/dab0470c999f66915a03a2510d6eb22b/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-support-fragments-2.4.aar/a0321c6df63434b6e4cbe8230144772c/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-support-fragments-2.4.aar/a0321c6df63434b6e4cbe8230144772c/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fd10c13f29b681f87b690164d5d92fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fd10c13f29b681f87b690164d5d92fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ca31a0ce8aafeb1347b65f4d68c936ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ca31a0ce8aafeb1347b65f4d68c936ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/302cc62a3e98b32a4e3626660241036c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/302cc62a3e98b32a4e3626660241036c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6a3e97e47e26348066177ecebbfe7f13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6a3e97e47e26348066177ecebbfe7f13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0b411fc40e4b276540b3c1cc94cbe4f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/0b411fc40e4b276540b3c1cc94cbe4f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d467a569752eba2a2b6866ea8aaac117/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d467a569752eba2a2b6866ea8aaac117/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/909c093012ec5ba03aa9546241aa3ec3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/909c093012ec5ba03aa9546241aa3ec3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e6aa58346f28da246b1c4e03dad0d7d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e6aa58346f28da246b1c4e03dad0d7d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/261d0c40e3e2a3e90c0bbab47cd0020e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/261d0c40e3e2a3e90c0bbab47cd0020e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/59413f6110fb47dd832c84747299e535/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/59413f6110fb47dd832c84747299e535/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/35a2c744c72a785ceafd8947dc4593a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/35a2c744c72a785ceafd8947dc4593a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f7ede70edf9f54db2cf0af6dc4aa61aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/f7ede70edf9f54db2cf0af6dc4aa61aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3e28603fde414e6b802608ad00f41b61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3e28603fde414e6b802608ad00f41b61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0c13d45835a6329f342878a5f996dcc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0c13d45835a6329f342878a5f996dcc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bcdf9704d576ac3b13806fa6fd27101/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4bcdf9704d576ac3b13806fa6fd27101/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e57b443f21a783236f2841b42d5b0fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e57b443f21a783236f2841b42d5b0fe1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/023fcf08b2ed3ec1db93e9e4fab043bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/023fcf08b2ed3ec1db93e9e4fab043bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cd380561f347982cd13104c55c5d8cd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cd380561f347982cd13104c55c5d8cd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b8a7665a04886c76fea423fe89ae902e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b8a7665a04886c76fea423fe89ae902e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/507179b6594e192156b07f26fb657b55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/507179b6594e192156b07f26fb657b55/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4f3551ff5ee2108b42c80c904c373ab5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4f3551ff5ee2108b42c80c904c373ab5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f0b4cf73c10fc31192be2d5249d7fe33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f0b4cf73c10fc31192be2d5249d7fe33/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2c3b1e825346cd45ca99f090ba0bbe64/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2c3b1e825346cd45ca99f090ba0bbe64/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/420c3ead644f376a6ebfc35169243e33/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/420c3ead644f376a6ebfc35169243e33/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1c4adff5a809bc056590fa904244f2a7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1c4adff5a809bc056590fa904244f2a7/AndroidManifest.xml:20:5-44
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:11:9-608
+	android:targetSdkVersion
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/bytedance/Desktop/TogetherAd/demo/src/main/AndroidManifest.xml
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.4.aar/eac80cd22691b9d2ba1326709cea7c32/AndroidManifest.xml:24:13-67
+provider#com.bytedance.sdk.openadsdk.TTFileProvider
+ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-22:20
+	android:grantUriPermissions
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-47
+	android:authorities
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-66
+	android:exported
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:58
+	android:resource
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-55
+	android:name
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-67
+provider#com.bytedance.sdk.openadsdk.multipro.TTMultiProvider
+ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-26:40
+	android:authorities
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-67
+	android:exported
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [:csj] /Users/bytedance/Desktop/TogetherAd/csj/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-80
+uses-permission#com.asus.msa.SupplementaryDID.ACCESS
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:13:22-73
+queries
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:15:5-23:15
+intent
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:16:9-22:18
+action#android.intent.action.VIEW
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:17:13-65
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:17:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:19:13-74
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:19:23-71
+data
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:21:13-44
+	android:scheme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:21:19-41
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:25:5-79
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:12:5-79
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:26:5-72
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:26:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:27:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.INTERNET
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:28:5-67
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:11:5-67
+MERGED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:29:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:30:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:30:22-77
+receiver#com.bytedance.embedapplog.collector.Collector
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:36:13-73
+activity#com.bytedance.sdk.openadsdk.activity.base.TTWebPageActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:40:9-45:57
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:43:13-42
+	android:windowSoftInputMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:45:13-54
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:42:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:44:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:41:13-87
+activity#com.bytedance.sdk.openadsdk.activity.base.TTMiddlePageActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:46:9-52:57
+	android:screenOrientation
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:50:13-49
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:49:13-42
+	android:windowSoftInputMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:52:13-54
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:48:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:51:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:47:13-90
+activity#com.bytedance.sdk.openadsdk.activity.base.TTPlayableWebPageActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:53:9-58:57
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:56:13-42
+	android:windowSoftInputMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:58:13-54
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:55:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:57:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:54:13-95
+activity#com.bytedance.sdk.openadsdk.activity.base.TTVideoWebPageActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:59:9-64:57
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:62:13-42
+	android:windowSoftInputMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:64:13-54
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:61:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:63:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:60:13-92
+activity#com.bytedance.sdk.openadsdk.activity.base.TTVideoScrollWebPageActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:65:9-70:57
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:68:13-42
+	android:windowSoftInputMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:70:13-54
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:67:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:69:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:66:13-98
+activity#com.bytedance.sdk.openadsdk.dislike.TTDislikeWebViewActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:71:9-76:57
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:74:13-42
+	android:windowSoftInputMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:76:13-54
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:73:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:75:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:72:13-88
+activity#com.bytedance.sdk.openadsdk.activity.base.TTDelegateActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:77:9-80:75
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:79:13-42
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:78:13-88
+activity#com.bytedance.sdk.openadsdk.activity.base.TTRewardVideoActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:81:9-85:53
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:84:13-42
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:83:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:85:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:82:13-91
+activity#com.bytedance.sdk.openadsdk.activity.base.TTRewardExpressVideoActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:86:9-90:53
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:89:13-42
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:88:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:90:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:87:13-98
+activity#com.bytedance.sdk.openadsdk.activity.base.TTFullScreenVideoActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:91:9-95:53
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:94:13-42
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:93:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:95:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:92:13-95
+activity#com.bytedance.sdk.openadsdk.activity.base.TTFullScreenExpressVideoActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:96:9-100:53
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:99:13-42
+	android:configChanges
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:98:13-74
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:100:13-50
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:97:13-102
+service#com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:102:9-95
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:102:18-92
+service#com.ss.android.socialbase.downloader.notification.DownloadNotificationService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:103:9-113
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:103:18-110
+service#com.ss.android.socialbase.downloader.downloader.DownloadService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:104:9-99
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:104:18-96
+service#com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:105:9-112:19
+	android:process
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:108:13-42
+	android:exported
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:106:13-109
+intent-filter#action:name:com.ss.android.socialbase.downloader.remote
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:109:13-111:29
+action#com.ss.android.socialbase.downloader.remote
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:110:17-86
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:110:25-83
+service#com.ss.android.socialbase.downloader.impls.DownloadHandleService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:113:9-100
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:113:18-97
+service#com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:119:9-107
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:119:18-104
+activity#com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:121:9-110
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:121:19-107
+activity#com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:122:9-107
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:122:19-104
+activity#com.ss.android.downloadlib.activity.TTDelegateActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:123:9-126:75
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:125:13-44
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:126:13-72
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:124:13-82
+activity#com.ss.android.downloadlib.activity.JumpKllkActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:127:9-130:75
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:129:13-44
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:130:13-72
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:128:13-80
+receiver#com.ss.android.downloadlib.core.download.DownloadReceiver
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:132:9-94
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:132:19-91
+service#com.ss.android.socialbase.appdownloader.DownloadHandlerService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:133:9-98
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:133:18-95
+activity#com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:149:9-152:59
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:151:13-44
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:152:13-56
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:150:13-99
+activity#com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:153:9-156:59
+	android:launchMode
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:155:13-44
+	android:theme
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:154:13-98
+service#com.ss.android.socialbase.appdownloader.RetryJobSchedulerService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:158:9-162:72
+	android:enabled
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:160:13-35
+	android:exported
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:161:13-37
+	android:permission
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:162:13-69
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:159:13-92
+service#com.bytedance.tea.crash.upload.CrashUploadService
+ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:163:9-165:39
+	android:process
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from [open_ad_sdk.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/open_ad_sdk.aar/008c5d7033e97c913744d163e0423f58/AndroidManifest.xml:164:13-77
+provider#com.qq.e.comm.GDTFileProvider
+ADDED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-68
+	android:exported
+		ADDED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:gdt] /Users/bytedance/Desktop/TogetherAd/gdt/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-57
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:14:5-83
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:14:22-80
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:16:22-74
+service#com.qq.e.comm.DownloadService
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:21:9-24:43
+	android:multiprocess
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:24:13-40
+	android:exported
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:22:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:26:9-29:43
+	android:multiprocess
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:29:13-40
+	android:configChanges
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:27:13-51
+activity#com.qq.e.ads.PortraitADActivity
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:30:9-34:52
+	android:screenOrientation
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:34:13-49
+	android:multiprocess
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:33:13-40
+	android:configChanges
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:31:13-59
+activity#com.qq.e.ads.LandscapeADActivity
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:35:9-39:59
+	android:screenOrientation
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:39:13-56
+	android:multiprocess
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:38:13-40
+	android:configChanges
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:37:13-83
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:36:13-60
+activity#com.qq.e.ads.RewardvideoPortraitADActivity
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:41:9-49:20
+	android:multiprocess
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:44:13-40
+	android:configChanges
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:43:13-83
+	android:theme
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:45:13-66
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:42:13-70
+meta-data#android.notch_support
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:46:13-48:40
+	android:value
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:48:17-37
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:47:17-53
+activity#com.qq.e.ads.RewardvideoLandscapeADActivity
+ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:51:9-60:20
+	android:screenOrientation
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:55:13-50
+	android:multiprocess
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:54:13-40
+	android:configChanges
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:53:13-83
+	android:theme
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from [GDTSDK.unionNormal.4.333.1203.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/GDTSDK.unionNormal.4.333.1203.aar/5b21c326d784672b5b858ce2744ff94b/AndroidManifest.xml:52:13-71
+activity#com.baidu.mobads.AppActivity
+ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-17:75
+	android:configChanges
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-72
+	android:theme
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-72
+	android:name
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-56
+provider#com.baidu.mobads.openad.BdFileProvider
+ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+	android:grantUriPermissions
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+	android:authorities
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-63
+	android:exported
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:baidu] /Users/bytedance/Desktop/TogetherAd/baidu/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-66
+activity#com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity
+ADDED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:12:9-17:20
+	android:launchMode
+		ADDED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:15:13-44
+	android:configChanges
+		ADDED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:14:13-74
+	android:theme
+		ADDED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [Baidu_MobAds_SDK-release.aar] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/Baidu_MobAds_SDK-release.aar/1cdbedeac5e7e8e96856508215e5cb5b/AndroidManifest.xml:13:13-90
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:26:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:30:13-70
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:46:9-62:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:51:13-71
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:52:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:50:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:54:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:53:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:55:13-61:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:60:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:60:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:64:9-70:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:68:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:66:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:67:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:70:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:69:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:65:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:72:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-android-core-2.4.aar/7ff0374aaf4a66e402d24ffbb1aadbe7/AndroidManifest.xml:72:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.4.aar/2846600fbef832c3eaacab55eb691c05/AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.4] /Users/bytedance/.gradle/caches/transforms-1/files-1.1/plumber-android-2.4.aar/376e3c6c403be6663d3365ecef152353/AndroidManifest.xml:9:13-64
